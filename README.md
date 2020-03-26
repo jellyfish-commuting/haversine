@@ -13,11 +13,11 @@ npm install @thejellyfish/haversine
 ```
 ### Usage
 ```javascript
-    import haversine from '@thejellyfish/haversine';
-    
-    // Return distance in meter
-    const dist = haversine([4.8668945,36.7699898], [3.9354349,36.6988394]);
-    console.log(dist); // Output 83381.53382511878
+import haversine from '@thejellyfish/haversine';
+
+// Return distance in meter
+const dist = haversine([4.8668945,36.7699898], [3.9354349,36.6988394]);
+console.log(dist); // Output 83381.53382511878
 ```
 
 ### Params

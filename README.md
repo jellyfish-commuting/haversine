@@ -15,9 +15,25 @@ npm install @thejellyfish/haversine
 ```javascript
 import haversine from '@thejellyfish/haversine';
 
-// Return distance in meter
-const dist = haversine([4.8668945,36.7699898], [3.9354349,36.6988394]);
-console.log(dist); // Output 83381.53382511878
+let dist;
+
+// Return distance in meter from arrays
+dist = haversine(
+  [4.8668945,36.7699898], 
+  [3.9354349,36.6988394],
+);
+
+// Output 83381.53382511878
+console.log(dist); 
+
+// Return distance in meter from objects
+dist = haversine(
+  { longitude: 4.8668945, latitude: 36.7699898 }, 
+  { longitude: 3.9354349, latitude: 36.6988394 },
+);
+
+// Output 83381.53382511878
+console.log(dist); 
 ```
 
 ### Params
@@ -26,7 +42,7 @@ console.log(dist); // Output 83381.53382511878
 haversine(a, b);
 ```
 
-| Prop | Type    |  Note      |
-|------|---------|------------|
-| `a`  | `array` | [lon, lat] |
-| `b`  | `array` | [lon, lat] |
+| Prop | Type                |  Note                                     |
+|------|---------------------|-------------------------------------------|
+| `a`  | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
+| `b`  | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |

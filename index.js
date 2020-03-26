@@ -13,8 +13,8 @@ module.exports = function (a, b) {
   // Haversine formula found in wikipedia page
   return 2 * EARTH_RADIUS * Math.asin(
     Math.sqrt(
-      Math.sin((lat2 - lat1) * 0.5) ** 2
-      + Math.cos(lat1) * Math.cos(lat2) * Math.sin((lon2 - lon1) * 0.5) ** 2
+      Math.sin((lat2 - lat1) / 2) ** 2
+      + Math.cos(lat1) * Math.cos(lat2) * Math.sin((lon2 - lon1) / 2) ** 2
     )
   );
 };

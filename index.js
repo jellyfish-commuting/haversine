@@ -1,5 +1,5 @@
 const DEG_TO_RAD = Math.PI / 180;
-const EARTH_RADIUS = 6371008; // Mean earth radius in meter see https://en.wikipedia.org/wiki/Earth
+const EARTH_RADIUS = 6371008; // Mean earth radius in meter see https://en.wikipedia.org/wiki/Earth_radius#Mean_radius
 
 //-------
 // Haversine formula

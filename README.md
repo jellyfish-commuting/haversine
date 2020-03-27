@@ -17,7 +17,7 @@ import haversine from '@thejellyfish/haversine';
 
 let dist;
 
-// Return distance in meter from arrays
+// Return distance in meter from array
 dist = haversine(
   [4.8668945,36.7699898], 
   [3.9354349,36.6988394],
@@ -26,7 +26,7 @@ dist = haversine(
 // Output 83381.53382511878
 console.log(dist); 
 
-// Return distance in meter from objects
+// Return distance in meter from object
 dist = haversine(
   { longitude: 4.8668945, latitude: 36.7699898 }, 
   { longitude: 3.9354349, latitude: 36.6988394 },

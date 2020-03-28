@@ -46,3 +46,8 @@ haversine(a, b);
 |------|---------------------|-------------------------------------------|
 | `a`  | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
 | `b`  | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
+
+
+### Return value
+
+Distance in meter

@@ -1,5 +1,5 @@
 # haversine
-Haversine formula to determine distance between 2 points   
+Haversine formula to determine distance between 2 points in few lines of code  
 Fomula applyed is issued from https://en.wikipedia.org/wiki/Haversine_formula
 
 

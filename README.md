@@ -1,5 +1,5 @@
 # haversine
-Haversine formula to determine distance between 2 points   
+Haversine formula to determine distance between 2 points in few lines of code  
 Fomula applyed is issued from https://en.wikipedia.org/wiki/Haversine_formula
 
 
@@ -17,7 +17,7 @@ import haversine from '@thejellyfish/haversine';
 
 let dist;
 
-// Return distance in meter from arrays
+// Return distance in meter from array
 dist = haversine(
   [4.8668945,36.7699898], 
   [3.9354349,36.6988394],
@@ -26,7 +26,7 @@ dist = haversine(
 // Output 83381.53382511878
 console.log(dist); 
 
-// Return distance in meter from objects
+// Return distance in meter from object
 dist = haversine(
   { longitude: 4.8668945, latitude: 36.7699898 }, 
   { longitude: 3.9354349, latitude: 36.6988394 },
@@ -46,3 +46,8 @@ haversine(a, b);
 |------|---------------------|-------------------------------------------|
 | `a`  | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
 | `b`  | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
+
+
+### Return value
+
+Distance in meter

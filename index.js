@@ -7,8 +7,8 @@ const EARTH_RADIUS = 6371008; // Mean earth radius in meter see https://en.wikip
 //-------
 module.exports = function (a, b) {
   // Convert in rads
-  const [lon1, lat1] = (Array.isArray(a) ? a : [a.longitude, a.latitude]).map(v => v * DEG_TO_RAD);
-  const [lon2, lat2] = (Array.isArray(b) ? b : [b.longitude, b.latitude]).map(v => v * DEG_TO_RAD);
+  const [lon1, lat1] = Array.isArray(a) ? [a[0] * DEG_TO_RAD, a[1] * DEG_TO_RAD] : [a.longitude * DEG_TO_RAD, a.latitude * DEG_TO_RAD];
+  const [lon2, lat2] = Array.isArray(b) ? [b[0] * DEG_TO_RAD, b[1] * DEG_TO_RAD] : [b.longitude * DEG_TO_RAD, b.latitude * DEG_TO_RAD];
 
   // Haversine formula found in wikipedia page
   return 2 * EARTH_RADIUS * Math.asin(

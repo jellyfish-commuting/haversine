@@ -42,12 +42,21 @@ console.log(dist);
 haversine(a, b, unit='m');
 ```
 
-| Prop    | Type                |  Note                                     |
-|---------|---------------------|-------------------------------------------|
-| `a`     | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
-| `b`     | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
-| `unit`  | `string`            | Result in target unit<br>`m` for meter (default)<br >`km` for kilometer<br >`mi` for mile<br >`nmi` for nautical mile<br >`ft` for foot<br >`in` for inch|
+| Prop | Type                |  Note                                     |
+|------|---------------------|-------------------------------------------|
+| `a`  | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
+| `b`  | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
 
+
+##### Unit param is optional (default is meter)
+Allowable units are:  
+   
+`m` for meter (default)  
+`km` for kilometer   
+`mi` for mile  
+`nmi` for nautical mile  
+`ft` for foot  `in` for inch
+  
 
 ### Return value
 

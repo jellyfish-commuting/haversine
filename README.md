@@ -39,15 +39,16 @@ console.log(dist);
 ### Params
 
 ```javascript
-haversine(a, b);
+haversine(a, b, unit='m');
 ```
 
-| Prop | Type                |  Note                                     |
-|------|---------------------|-------------------------------------------|
-| `a`  | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
-| `b`  | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
+| Prop    | Type                |  Note                                     |
+|---------|---------------------|-------------------------------------------|
+| `a`     | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
+| `b`     | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
+| `unit`  | `string`            | Result in target unit<br>`m` for meter (default)<br >`km` for kilometer<br >`mi` for mile<br >`nmi` for nautical mile<br >`ft` for foot<br >`in` for inch|
 
 
 ### Return value
 
-Distance in meter
+Distance in unit

@@ -47,15 +47,16 @@ haversine(a, b, unit='m');
 | `a`  | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
 | `b`  | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
 
+*Unit param is optional (default is meter)*  
 
-##### Unit param is optional (default is meter)
 Allowable units are:  
    
 `m` for meter (default)  
 `km` for kilometer   
 `mi` for mile  
 `nmi` for nautical mile  
-`ft` for foot  `in` for inch
+`ft` for foot  
+`in` for inch
   
 
 ### Return value

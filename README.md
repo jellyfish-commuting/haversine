@@ -17,23 +17,32 @@ import haversine from '@jellyfish/haversine';
 
 let dist;
 
-// Return distance in meter from array
-dist = haversine(
-  [4.8668945, 36.7699898], 
-  [3.9354349, 36.6988394],
-);
+// Distance in meter from array
+dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394]);
 
 // Output 83381.53382511878
 console.log(dist); 
 
-// Return distance in meter from object
+// Distance in meter from object
 dist = haversine(
   { longitude: 4.8668945, latitude: 36.7699898 }, 
   { longitude: 3.9354349, latitude: 36.6988394 },
 );
 
-// Output 83381.53382511878
-console.log(dist); 
+// Distance in miles
+dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'mi');
+
+// Distance in nautical miles
+dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'nmi');
+
+// Distance in nautical feet
+dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'ft');
+
+// Distance in nautical inch
+dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'in');
+
+// Distance in nautical Km
+dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'km');
 ```
 
 ### Params

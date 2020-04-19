@@ -35,13 +35,13 @@ dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'mi');
 // Distance in nautical miles
 dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'nmi');
 
-// Distance in nautical feet
+// Distance in feet
 dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'ft');
 
-// Distance in nautical inch
+// Distance in inch
 dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'in');
 
-// Distance in nautical Km
+// Distance in Km
 dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'km');
 ```
 

@@ -51,14 +51,13 @@ dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'km');
 haversine(a, b, unit='m');
 ```
 
-| Prop | Type                |  Note                                     |
-|------|---------------------|-------------------------------------------|
-| `a`  | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
-| `b`  | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
+| Prop   | Type                |  Note                                     |
+|--------|---------------------|-------------------------------------------|
+| `a`    | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
+| `b`    | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
+| `unit` | `string`            | Unit param is optional (default is meter) |
 
-*Unit param is optional (default is meter)*  
-
-Allowable units are:  
+*Allowable units are*  
    
 `m` for meter (default)  
 `km` for kilometer   

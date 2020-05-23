@@ -5,15 +5,15 @@ Fomula applyed is issued from https://en.wikipedia.org/wiki/Haversine_formula
 
 ### Install
 ```bash
-yarn add @jellyfish/haversine
+yarn add @thejellyfish/haversine
 ```
 or
 ```bash
-npm install @jellyfish/haversine
+npm install @thejellyfish/haversine
 ```
 ### Usage
 ```javascript
-import haversine from '@jellyfish/haversine';
+import haversine from '@thejellyfish/haversine';
 
 const a = [4.8668945, 36.7699898];
 const b = [3.9354349, 36.6988394];

@@ -1,6 +1,6 @@
 {
   "name": "@thejellyfish/haversine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Haversine formula to determine distance between 2 points",
   "keywords": ["haversine"],
   "license": "ISC",

@@ -15,10 +15,12 @@ npm install @jellyfish/haversine
 ```javascript
 import haversine from '@jellyfish/haversine';
 
+const a = [4.8668945, 36.7699898];
+const b = [3.9354349, 36.6988394];
 let dist;
 
 // Distance in meter from array
-dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394]);
+dist = haversine(a, b);
 
 // Output 83381.53382511878
 console.log(dist); 
@@ -30,19 +32,19 @@ dist = haversine(
 );
 
 // Distance in miles
-dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'mi');
+dist = haversine(a, b, 'mi');
 
 // Distance in nautical miles
-dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'nmi');
+dist = haversine(a, b, 'nmi');
 
 // Distance in feet
-dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'ft');
+dist = haversine(a, b, 'ft');
 
 // Distance in inch
-dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'in');
+dist = haversine(a, b, 'in');
 
 // Distance in Km
-dist = haversine([4.8668945, 36.7699898], [3.9354349, 36.6988394], 'km');
+dist = haversine(a, b, 'km');
 ```
 
 ### Params

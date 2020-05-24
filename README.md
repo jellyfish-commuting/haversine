@@ -59,7 +59,8 @@ haversine(a, b, unit='m');
 | `b`    | `array` or `object` | `[lon, lat]` or `{ longitude, latitude }` |
 | `unit` | `string`            | Unit param is optional (default is meter) |
 
-*Allowable units are*  
+
+### Supported units
    
 `m` for meter (default)  
 `km` for kilometer   

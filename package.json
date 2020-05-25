@@ -1,16 +1,17 @@
 {
   "name": "@thejellyfish/haversine",
-  "version": "1.0.3",
   "description": "Haversine formula to determine distance between 2 points",
   "keywords": ["haversine"],
   "license": "ISC",
   "author": "thejellyfish <the@jellyfish-commuting.com>",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "codecov"
   },
   "dependencies": {},
   "devDependencies": {
+    "codecov": "^3.7.0",
     "jest": "^25.2.0"
   },
   "repository": {
@@ -20,5 +21,18 @@
   "bugs": {
     "url": "https://github.com/thejellyfish/haversine/issues"
   },
-  "homepage": "https://github.com/thejellyfish/haversine#readme"
+  "homepage": "https://github.com/thejellyfish/haversine#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "index.js"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ]
+  }
 }

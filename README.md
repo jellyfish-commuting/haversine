@@ -1,3 +1,9 @@
+![Version](https://img.shields.io/npm/v/@thejellyfish/haversine)
+![Licence](https://img.shields.io/npm/l/@thejellyfish/haversine)
+![Build](https://img.shields.io/travis/thejellyfish/haversine)
+![Coverage](https://img.shields.io/codecov/c/github/thejellyfish/haversine)
+![Downloads](https://img.shields.io/npm/dt/@thejellyfish/haversine)
+
 # haversine
 Haversine formula to determine distance between 2 points in few lines of code  
 Fomula applyed is issued from https://en.wikipedia.org/wiki/Haversine_formula

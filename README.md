@@ -21,6 +21,7 @@ npm install @thejellyfish/haversine
 ```javascript
 import haversine from '@thejellyfish/haversine';
 
+// ... coordinates example
 const a = [4.8668945, 36.7699898];
 const b = [3.9354349, 36.6988394];
 let dist;

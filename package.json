@@ -2,7 +2,7 @@
   "name": "@thejellyfish/haversine",
   "description": "Haversine formula to determine distance between 2 points",
   "keywords": ["haversine"],
-  "license": "ISC",
+  "license": "MIT",
   "author": "thejellyfish <the@jellyfish-commuting.com>",
   "main": "index.js",
   "scripts": {

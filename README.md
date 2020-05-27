@@ -6,7 +6,7 @@
 
 # haversine
 Haversine formula to determine distance between 2 points in few lines of code  
-Formula applied is issued from https://en.wikipedia.org/wiki/Haversine_formula
+Formula applied is taken from https://en.wikipedia.org/wiki/Haversine_formula
 
 
 ### Install

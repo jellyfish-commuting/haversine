@@ -6,7 +6,7 @@
 
 # haversine
 Haversine formula to determine distance between 2 points in few lines of code  
-Formula applyed is issued from https://en.wikipedia.org/wiki/Haversine_formula
+Formula applied is issued from https://en.wikipedia.org/wiki/Haversine_formula
 
 
 ### Install
@@ -25,13 +25,13 @@ const a = [4.8668945, 36.7699898];
 const b = [3.9354349, 36.6988394];
 let dist;
 
-// Distance in meter from array
+// Distance in meters from array
 dist = haversine(a, b);
 
 // Output 83381.53382511878
 console.log(dist); 
 
-// Distance in meter from object
+// Distance in meters from object
 dist = haversine(
   { longitude: 4.8668945, latitude: 36.7699898 }, 
   { longitude: 3.9354349, latitude: 36.6988394 },
@@ -46,7 +46,7 @@ dist = haversine(a, b, 'nmi');
 // Distance in feet
 dist = haversine(a, b, 'ft');
 
-// Distance in inch
+// Distance in inches
 dist = haversine(a, b, 'in');
 
 // Distance in Km

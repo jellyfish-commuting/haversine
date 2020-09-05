@@ -1,5 +1,5 @@
 [![Version](https://img.shields.io/npm/v/@jellyfish-commuting/haversine)](https://www.npmjs.com/package/@jellyfish-commuting/haversine)
-[![Licence](https://img.shields.io/npm/l/@jellyfish-commuting/haversine)](https://en.wikipedia.org/wiki/ISC_license)
+[![Licence](https://img.shields.io/npm/l/@jellyfish-commuting/haversine)](https://en.wikipedia.org/wiki/MIT_license)
 [![Build](https://img.shields.io/travis/jellyfish-commuting/haversine)](https://travis-ci.org/github/jellyfish-commuting/haversine)
 [![Coverage](https://img.shields.io/codecov/c/github/jellyfish-commuting/haversine)](https://codecov.io/gh/jellyfish-commuting/haversine)
 [![Downloads](https://img.shields.io/npm/dt/@jellyfish-commuting/haversine)](https://www.npmjs.com/package/@jellyfish-commuting/haversine)

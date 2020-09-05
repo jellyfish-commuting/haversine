@@ -1,8 +1,8 @@
-[![Version](https://img.shields.io/npm/v/@thejellyfish/haversine)](https://www.npmjs.com/package/@thejellyfish/haversine)
-[![Licence](https://img.shields.io/npm/l/@thejellyfish/haversine)](https://en.wikipedia.org/wiki/ISC_license)
-[![Build](https://img.shields.io/travis/thejellyfish/haversine)](https://travis-ci.org/github/thejellyfish/haversine)
-[![Coverage](https://img.shields.io/codecov/c/github/thejellyfish/haversine)](https://codecov.io/gh/thejellyfish/haversine)
-[![Downloads](https://img.shields.io/npm/dt/@thejellyfish/haversine)](https://www.npmjs.com/package/@thejellyfish/haversine)
+[![Version](https://img.shields.io/npm/v/@jellyfish-commuting/haversine)](https://www.npmjs.com/package/@jellyfish-commuting/haversine)
+[![Licence](https://img.shields.io/npm/l/@jellyfish-commuting/haversine)](https://en.wikipedia.org/wiki/ISC_license)
+[![Build](https://img.shields.io/travis/jellyfish-commuting/haversine)](https://travis-ci.org/github/jellyfish-commuting/haversine)
+[![Coverage](https://img.shields.io/codecov/c/github/jellyfish-commuting/haversine)](https://codecov.io/gh/jellyfish-commuting/haversine)
+[![Downloads](https://img.shields.io/npm/dt/@jellyfish-commuting/haversine)](https://www.npmjs.com/package/@jellyfish-commuting/haversine)
 
 # haversine
 Haversine formula to determine distance between 2 points in few lines of code  
@@ -11,15 +11,15 @@ Formula applied is taken from https://en.wikipedia.org/wiki/Haversine_formula
 
 ### Install
 ```bash
-yarn add @thejellyfish/haversine
+yarn add @jellyfish-commuting/haversine
 ```
 or
 ```bash
-npm install @thejellyfish/haversine
+npm install @jellyfish-commuting/haversine
 ```
 ### Usage
 ```javascript
-import haversine from '@thejellyfish/haversine';
+import haversine from '@jellyfish-commuting/haversine';
 
 // ... coordinates example
 const a = [4.8668945, 36.7699898];

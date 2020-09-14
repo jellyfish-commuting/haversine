@@ -38,6 +38,30 @@ dist = haversine(
   { longitude: 3.9354349, latitude: 36.6988394 },
 );
 
+// Example from GeoJSON points
+const pointA = { 
+  type: 'Feature',
+  geometry: {
+    type: 'Point',
+    coordinates: [4.8668945, 36.7699898],
+  },
+};
+
+const pointB = { 
+  type: 'Feature',
+  geometry: {
+    type: 'Point',
+    coordinates: [3.9354349, 36.6988394],
+  },
+};
+
+// Distance between geoJSON points
+dist = haversine(pointA.geometry.coordinates, pointB.geometry.coordinates);
+
+//-------
+// Units support
+//-------
+
 // Distance in miles
 dist = haversine(a, b, 'mi');
 
